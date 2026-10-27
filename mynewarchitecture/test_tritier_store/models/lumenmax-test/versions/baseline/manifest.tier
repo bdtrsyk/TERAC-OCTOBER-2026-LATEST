@@ -1,0 +1,19 @@
+TRITIER-MANIFEST|1
+model|lumenmax-test
+version|baseline
+parent|
+baseline|baseline
+immutable|1
+representation|native
+parameters|163840
+created_ns|1793093285995164300
+status|committed
+provenance|lumenmax representation-preserving baseline snapshot
+block|win|matrix|0|4096|4096|native|fnv1a64:ce8c089bc1fc357d|file|versions/baseline/blocks/win.bin
+block|wrec|matrix|4096|4096|4096|native|fnv1a64:be861305196ce74d|file|versions/baseline/blocks/wrec.bin
+block|wgate|matrix|8192|8192|8192|native|fnv1a64:d3f7bd80d682161f|file|versions/baseline/blocks/wgate.bin
+block|wout|matrix|16384|131072|131072|native|fnv1a64:b081d832ba53c44f|file|versions/baseline/blocks/wout.bin
+block|expert_0|matrix|147456|4096|4096|native|fnv1a64:99c6cf4fe7addd11|file|versions/baseline/blocks/expert_0.bin
+block|expert_1|matrix|151552|4096|4096|native|fnv1a64:567c18ee550f193e|file|versions/baseline/blocks/expert_1.bin
+block|expert_2|matrix|155648|4096|4096|native|fnv1a64:1be4e24418ef4d82|file|versions/baseline/blocks/expert_2.bin
+block|expert_3|matrix|159744|4096|4096|native|fnv1a64:ea7dad02ba697e4f|file|versions/baseline/blocks/expert_3.bin

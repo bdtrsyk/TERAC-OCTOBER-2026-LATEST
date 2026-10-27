@@ -1,0 +1,65 @@
+{
+  "name": "TernaryCognitiveAI",
+  "contract_version": 1,
+  "ternary_domain": [-1, 0, 1],
+  "eos_token": "<eos>",
+  "engines": {
+    "julia": "TernaryCognitiveAI cognitive reasoner: concepts, hypotheses, intentional output, formal cognitive ops (Julia-owned; do not reimplement in Python)",
+    "python": "LumenMAX ternary sequence substrate: state dynamics, discrete credit, GUI/dataset studio, file IO (Python-owned; do not reimplement in Julia)",
+    "tritier": "TriTier three-tier memory & execution subsystem: Persistent Storage (Tier P) -> System RAM & 50/50 Scheduler (Tier 2) -> Hot GPU VRAM bounded < 500MB (Tier 1)"
+  },
+  "ecosystem": {
+    "principle": "Julia + Python + TriTier = one unified ecosystem; each layer owns its strengths; shared contract + bridge eliminate language and hardware boundaries",
+    "bridge": "tcai_bridge.py routes ask/teach/audit; tritier_adapter.py coordinates memory tiering and supercharged credit assignment; shared/contract.json is the single response shape"
+  },
+  "quality_classes": [
+    "EXCELLENT",
+    "GOOD",
+    "PARTIAL",
+    "NEUTRAL",
+    "WRONG",
+    "REPETITIVE",
+    "REQUESTED_REPETITION",
+    "IRRELEVANT",
+    "CONTRADICTORY",
+    "INCOMPLETE",
+    "CONSTRAINT_FAILURE",
+    "INSTRUCTION_FAILURE",
+    "EOS_STOP",
+    "LOOP_STOP",
+    "MARGIN_STOP"
+  ],
+  "stop_reasons": [
+    "eos",
+    "loop",
+    "margin",
+    "max_tokens",
+    "empty",
+    "complete"
+  ],
+  "bridge_ops": [
+    "ping",
+    "contract",
+    "ask",
+    "teach",
+    "audit",
+    "stats",
+    "shutdown"
+  ],
+  "response_shape": {
+    "ok": "bool",
+    "engine": "julia|python",
+    "output": "string",
+    "quality": "quality_class",
+    "confidence": "number 0..1",
+    "stop_reason": "stop_reason",
+    "ternary": "bool always true",
+    "reasons": "string[]"
+  },
+  "invariants": [
+    "All learned weights are in {-1,0,+1}",
+    "No gradient/backprop/softmax/attention training path",
+    "Unsolicited repetition is REPETITIVE (punish); requested repetition is REQUESTED_REPETITION (reward)",
+    "Generation must terminate via EOS, loop ban, margin abstain, or max_tokens"
+  ]
+}

@@ -1,0 +1,5 @@
+cargo:rustc-link-search=native=C:\Users\Woody\Desktop\mynewarchitecture\tritier\cpp\build
+cargo:rustc-link-lib=static=tritier_sycl
+cargo:rustc-link-lib=dxgi
+cargo:rerun-if-env-changed=TRITIER_SYCL_LIB_DIR
+cargo:rerun-if-changed=C:\Users\Woody\Desktop\mynewarchitecture\tritier\cpp\build\tritier_sycl.lib

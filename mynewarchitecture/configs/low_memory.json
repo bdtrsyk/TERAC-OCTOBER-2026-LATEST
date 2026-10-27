@@ -1,0 +1,9 @@
+{
+  "ram_budget": 134217728,
+  "staging_budget": 33554432,
+  "gpu_budget": 268435456,
+  "worker_capacity": 2,
+  "initial_tile": 2097152,
+  "min_tile": 32768,
+  "native_gpu": true
+}

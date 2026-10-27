@@ -1,0 +1,2 @@
+using TernaryCognitiveAI
+run_repetition_demonstration()

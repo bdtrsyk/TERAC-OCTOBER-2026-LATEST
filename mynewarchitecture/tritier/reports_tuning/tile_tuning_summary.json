@@ -1,0 +1,47 @@
+[
+  {
+    "tile_label": "1MB",
+    "tile_bytes": 1048576,
+    "elapsed_ms": 1101,
+    "internal_peak_bytes": 469762048,
+    "external_peak_bytes": 479133696,
+    "status": "passed",
+    "ops_per_sec": 58.12897366030881
+  },
+  {
+    "tile_label": "2MB",
+    "tile_bytes": 2097152,
+    "elapsed_ms": 1127,
+    "internal_peak_bytes": 469762048,
+    "external_peak_bytes": 479133696,
+    "status": "passed",
+    "ops_per_sec": 56.78793256433008
+  },
+  {
+    "tile_label": "4MB",
+    "tile_bytes": 4194304,
+    "elapsed_ms": 1089,
+    "internal_peak_bytes": 469762048,
+    "external_peak_bytes": 479133696,
+    "status": "passed",
+    "ops_per_sec": 58.76951331496786
+  },
+  {
+    "tile_label": "8MB",
+    "tile_bytes": 8388608,
+    "elapsed_ms": 1134,
+    "internal_peak_bytes": 469762048,
+    "external_peak_bytes": 479133696,
+    "status": "passed",
+    "ops_per_sec": 56.43738977072311
+  },
+  {
+    "tile_label": "16MB",
+    "tile_bytes": 16777216,
+    "elapsed_ms": 1122,
+    "internal_peak_bytes": 469762048,
+    "external_peak_bytes": 479133696,
+    "status": "passed",
+    "ops_per_sec": 57.0409982174688
+  }
+]

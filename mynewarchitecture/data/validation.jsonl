@@ -1,0 +1,3 @@
+{"id":1,"input":"why sun causes expansion","expected_output":"sun causes expansion","tags":["holdout","composition"]}
+{"id":2,"input":"why a causes c","expected_output":"a causes c","tags":["holdout","composition"]}
+{"id":3,"input":"repeat this","expected_output":null,"quality_target":"REQUESTED_REPETITION","tags":["repetition"]}

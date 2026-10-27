@@ -1,0 +1,19 @@
+{
+  "benchmark": "synthetic_10b",
+  "logical_parameter_count": 10000000000,
+  "operations": 64,
+  "elapsed_ms": 1189,
+  "acceptance_status": "passed",
+  "reason": "native GPU internal/external measurements are below hard limit",
+  "gpu": {
+    "native_backend": true,
+    "internal_current_bytes": 469762048,
+    "internal_peak_bytes": 469762048,
+    "external_current_bytes": 479133696,
+    "external_peak_bytes": 479133696,
+    "hard_limit_bytes": 500000000
+  },
+  "ram": {"current_bytes": 268435456, "peak_bytes": 268435456},
+  "staging": {"current_bytes": 0, "peak_bytes": 8388608},
+  "scheduler": {"learning_units": 64, "doing_units": 64, "learning_busy_ms": 0, "doing_busy_ms": 1103}
+}

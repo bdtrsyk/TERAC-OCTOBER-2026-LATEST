@@ -1,0 +1,16 @@
+# Foundational Knowledge Training Data
+# Format: input | expected output | optional quality
+
+sun causes heat | sun causes heat
+heat causes expansion | heat causes expansion
+why sun causes expansion | sun causes expansion
+rain causes wet ground | rain causes wet ground
+wet ground causes slippery pavement | wet ground causes slippery pavement
+why rain causes slippery pavement | rain causes slippery pavement
+a causes b | a causes b
+b causes c | b causes c
+why a causes c | a causes c
+pressure causes flow | pressure causes flow
+friction causes resistance | friction causes resistance
+resistance causes deceleration | resistance causes deceleration
+why friction causes deceleration | friction causes deceleration

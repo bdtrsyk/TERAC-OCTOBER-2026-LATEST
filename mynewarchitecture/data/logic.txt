@@ -1,0 +1,12 @@
+# Logic and Deduction Dataset for Ternary Cognitive AI
+# Format: input | expected output | optional quality
+
+a causes b | a causes b
+b causes c | b causes c
+c causes d | c causes d
+why a causes c | a causes c
+why b causes d | b causes d
+why a causes d | a causes d
+x prevents y | x prevents y
+y causes z | y causes z
+repeat this | why a causes d | REQUESTED_REPETITION

@@ -1,0 +1,2 @@
+using TernaryCognitiveAI
+run_novelty_demonstration()

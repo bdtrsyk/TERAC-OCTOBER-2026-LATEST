@@ -1,0 +1,2 @@
+using TernaryCognitiveAI
+run_self_correction_demonstration()

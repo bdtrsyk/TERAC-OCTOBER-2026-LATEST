@@ -1,0 +1,26 @@
+[package]
+name = "tritier-runtime"
+version = "0.1.0"
+edition = "2021"
+description = "Persistent, GPU-bounded, RAM-managed model runtime"
+license = "MIT"
+autobins = false
+
+[lib]
+name = "tritier_runtime"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "tritier"
+path = "src/cli.rs"
+
+[features]
+default = []
+# Links the C++ oneAPI/SYCL backend built in cpp/.  The Rust ownership,
+# scheduling, and storage code remains identical with or without this flag.
+sycl = []
+
+[profile.release]
+lto = true
+codegen-units = 1

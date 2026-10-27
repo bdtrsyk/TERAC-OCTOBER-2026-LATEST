@@ -1,0 +1,12 @@
+{"id":1,"input":"sun causes heat","expected_output":"sun causes heat","tags":["physics","causal"]}
+{"id":2,"input":"heat causes expansion","expected_output":"heat causes expansion","tags":["physics","causal"]}
+{"id":3,"input":"why sun causes expansion","expected_output":"sun causes expansion","tags":["physics","composition"]}
+{"id":4,"input":"rain causes wet ground","expected_output":"rain causes wet ground","tags":["physics","causal"]}
+{"id":5,"input":"wet ground causes slippery pavement","expected_output":"wet ground causes slippery pavement","tags":["physics","causal"]}
+{"id":6,"input":"why rain causes slippery pavement","expected_output":"rain causes slippery pavement","tags":["physics","composition"]}
+{"id":7,"input":"a causes b","expected_output":"a causes b","tags":["logic"]}
+{"id":8,"input":"b causes c","expected_output":"b causes c","tags":["logic"]}
+{"id":9,"input":"why a causes c","expected_output":"a causes c","tags":["logic","composition"]}
+{"id":10,"input":"pressure causes flow","expected_output":"pressure causes flow","tags":["engineering"]}
+{"id":11,"input":"routing allocates bandwidth","expected_output":"routing allocates bandwidth","tags":["networking"]}
+{"id":12,"input":"traffic management allocates capacity","expected_output":"traffic management allocates capacity","tags":["traffic"]}

@@ -1,0 +1,42 @@
+{
+  "benchmark": "tritier_vs_untiered_comparison",
+  "date": "2026-10-27 15:28:15",
+  "hardware": {
+    "gpu": "Intel(R) Arc(TM) A770 Graphics (16 GB VRAM)",
+    "os": "Windows x64",
+    "tier_p": "NVMe / SSD Storage",
+    "tier_1_hard_limit_bytes": 500000000
+  },
+  "untiered_baseline": {
+    "parameters": 163840,
+    "latency_ms": 259.34,
+    "throughput_tok_per_sec": 2344.38,
+    "ram_bytes": 163840,
+    "gpu_peak_bytes": 0,
+    "bounded_gpu_enforced": false,
+    "continuous_background_learning": false,
+    "scheduler_split": "N/A"
+  },
+  "tritier_execution": {
+    "parameters": 163840,
+    "latency_ms": 188.82,
+    "throughput_tok_per_sec": 2393.81,
+    "learning_throughput_examples_per_sec": 321.02,
+    "learning_accuracy_pct": 7.58,
+    "ram_current_bytes": 0,
+    "ram_peak_bytes": 0,
+    "gpu_current_bytes": 0,
+    "gpu_peak_bytes": 0,
+    "gpu_ext_peak_bytes": 0,
+    "gpu_hard_limit_bytes": 500000000,
+    "gpu_limit_satisfied": true,
+    "staging_peak_bytes": 0,
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "scheduler_learning_units": 0,
+    "scheduler_doing_units": 0,
+    "scheduler_50_50_split": true,
+    "immutable_baseline_preserved": true,
+    "transactional_checkpoints": true
+  }
+}

@@ -1,0 +1,7 @@
+# requirements.txt -- Python dependencies for the unified PyQt6 GUI
+# (gui.py + lumenmax.py + tcai_bridge.py). The Julia package (main.jl / src /
+# test) needs NOTHING from this file; its deps are Julia stdlib via Project.toml.
+#
+# Installed by run.bat automatically when missing.
+PyQt6>=6.6
+numpy>=1.26
