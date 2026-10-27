@@ -6,7 +6,6 @@ TERAC is an experimental AI architecture focused on efficient computation, adapt
 
 ## Core Features
 
-- **Ternary Neural System** — Uses `-1`, `0`, and `+1` for discrete neural representations.
 - **Binary Neural System** — A pure 1-bit architecture using only `-1` and `+1`.
 - **Non-Backpropagation Learning** — Explores learning through evidence, parameter competition, rewards, penalties, and causal credit assignment instead of conventional backpropagation.
 - **Linear Attention** — Explores efficient attention mechanisms without relying on conventional quadratic attention computation.
