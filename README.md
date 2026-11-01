@@ -1,8 +1,8 @@
-# TERAC
+# BERAC
 
-**Ternary Evidence-driven Reasoning through Arithmetic Competition**
+**Binary Evidence-driven Reasoning through Arithmetic Competition**
 
-TERAC is an experimental AI architecture focused on efficient computation, adaptive learning, evidence-driven reasoning, and memory management.
+BERAC is an experimental AI architecture focused on efficient computation, adaptive learning, evidence-driven reasoning, and memory management.
 
 ## Core Features
 
@@ -38,6 +38,3 @@ TERAC is an experimental architecture under active development. Features, implem
 
 See the repository for licensing and usage terms.
 
----
-
-**TERAC — Rethinking how AI computes, learns, and reasons.**
