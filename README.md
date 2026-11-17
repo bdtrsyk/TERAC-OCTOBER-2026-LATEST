@@ -1,12 +1,12 @@
-# BERAC
+# TERAC
 
-**Binary Evidence-driven Reasoning through Arithmetic Competition**
+**TEnary Evidence-driven Reasoning through Arithmetic Competition**
 
-BERAC is an experimental AI architecture focused on efficient computation, adaptive learning, evidence-driven reasoning, and memory management.
+TERAC is an experimental AI architecture focused on efficient computation, adaptive learning, evidence-driven reasoning, and memory management.
 
 ## Core Features
 
-- **Binary Neural System** — A pure 1-bit architecture using only `-1` and `+1`.
+- **Binary Neural System** — A pure 1-bit architecture using only `-1` and `+1`. (ik it says tenery bro shut the heck up)
 - **Non-Backpropagation Learning** — Explores learning through evidence, parameter competition, rewards, penalties, and causal credit assignment instead of conventional backpropagation.
 - **Linear Attention** — Explores efficient attention mechanisms without relying on conventional quadratic attention computation.
 - **Arithmetic Reasoning** — Uses discrete arithmetic operations for computation and reasoning.
